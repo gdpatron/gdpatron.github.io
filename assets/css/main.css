@@ -647,7 +647,7 @@ input, select, textarea {
 		.image:before {
 			pointer-events: none;
 			background-image: url("../../images/bg.jpg");
-			background-color: rgba(205,234,205,1.000);
+			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -1369,11 +1369,11 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(205,234,205,1.00);
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: rgba(205,234,205,1.00);
 					}
 
 		#header nav.use-middle:after {
