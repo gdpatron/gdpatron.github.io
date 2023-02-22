@@ -1546,7 +1546,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(205,234,205,1.00);
+			background-color: rgba(0, 0, 0, 0);
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1592,11 +1592,11 @@ input, select, textarea {
 				}
 
 				#main article .close:hover:before {
-					background-color: rgba(205,234,205,1.00);
+					background-color: rgba(0, 0, 0, 0);
 				}
 
 				#main article .close:active:before {
-					background-color: rgba(205,234,205,1.00);
+					background-color: rgba(0, 0, 0, 0);
 				}
 
 		@media screen and (max-width: 736px) {
