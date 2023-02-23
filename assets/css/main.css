@@ -539,7 +539,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			background: rgba(205,234,205,1.00);
+			background: rgba(0,0,0,0);
 			border-color: #ffffff;
 			box-shadow: 0 0 0 1px #ffffff;
 		}
@@ -553,27 +553,27 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(205,234,205,1.00) !important;
+		color: rgba(0,0,0,0) !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: rgba(205,234,205,1.00) !important;
+		color: rgba(0,0,0,0) !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: rgba(205,234,205,1.00) !important;
+		color: rgba(0,0,0,0) !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(205,234,205,1.00) !important;
+		color: rgba(0,0,0,0) !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: rgba(205,234,205,1.00) !important;
+		color: rgba(0,0,0,0) !important;
 		opacity: 1.0;
 	}
 
