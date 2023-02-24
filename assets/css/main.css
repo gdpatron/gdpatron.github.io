@@ -1400,7 +1400,7 @@ input, select, textarea {
 			-webkit-filter: blur(0.1rem);
 			-ms-filter: blur(0.1rem);
 			filter: blur(0.1rem);
-			opacity: 0;
+			opacity: 1;
 		}
 
 		body.is-preload #header {
@@ -1411,7 +1411,7 @@ input, select, textarea {
 		}
 
 			body.is-preload #header > * {
-				opacity: 0;
+				opacity: 1;
 			}
 
 			body.is-preload #header .content .inner {
@@ -1548,7 +1548,7 @@ input, select, textarea {
 			max-width: 100%;
 			background-color: rgba(0, 0, 0, 0);
 			border-radius: 4px;
-			opacity: 0;
+			opacity: 1;
 		}
 
 			#main article.active {
@@ -1653,9 +1653,9 @@ input, select, textarea {
 			-webkit-filter: blur(0.1rem);
 			-ms-filter: blur(0.1rem);
 			filter: blur(0.1rem);
-			opacity: 0;
+			opacity: 1;
 		}
 
 		body.is-preload #footer {
-			opacity: 0;
+			opacity: 1;
 		}
