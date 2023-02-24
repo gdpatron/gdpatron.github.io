@@ -554,27 +554,27 @@ input, select, textarea {
 
 	::-webkit-input-placeholder {
 		color: rgba(0,0,0,0) !important;
-		opacity: 1.0;
+		opacity: 0.0;
 	}
 
 	:-moz-placeholder {
 		color: rgba(0,0,0,0) !important;
-		opacity: 1.0;
+		opacity: 0.0;
 	}
 
 	::-moz-placeholder {
 		color: rgba(0,0,0,0) !important;
-		opacity: 1.0;
+		opacity: 0.0;
 	}
 
 	:-ms-input-placeholder {
 		color: rgba(0,0,0,0) !important;
-		opacity: 1.0;
+		opacity: 0.0;
 	}
 
 	.formerize-placeholder {
 		color: rgba(0,0,0,0) !important;
-		opacity: 1.0;
+		opacity: 0.0;
 	}
 
 /* Box */
