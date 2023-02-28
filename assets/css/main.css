@@ -921,11 +921,11 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					background-color: rgba(205,234,205,1.00);
+					background-color: rgba(0,0,0,0);
 				}
 
 				ul.icons li a:active {
-					background-color: rgba(205,234,205,1.00);
+					background-color: rgba(0,0,0,0);
 				}
 
 /* Table */
