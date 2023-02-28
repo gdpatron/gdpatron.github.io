@@ -260,7 +260,7 @@ input, select, textarea {
 	}
 
 	code {
-		background: rgba(0,0,0,0);
+		background: rgba(255, 255, 255, 0.075);
 		border-radius: 4px;
 		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
@@ -425,7 +425,7 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			background: rgba(0,0,0,0);
+			background: rgba(255, 255, 255, 0.075);
 			border-color: #ffffff;
 			box-shadow: 0 0 0 1px #ffffff;
 		}
@@ -473,7 +473,7 @@ input, select, textarea {
 		display: block;
 		float: left;
 		margin-right: -2rem;
-		opacity: 1;
+		opacity: 0;
 		width: 1rem;
 		z-index: -1;
 	}
@@ -539,7 +539,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			background: rgba(0,0,0,0);
+			background: rgba(255, 255, 255, 0.075);
 			border-color: #ffffff;
 			box-shadow: 0 0 0 1px #ffffff;
 		}
@@ -553,28 +553,28 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(0,0,0,0) !important;
-		opacity: 1;
+		color: rgba(255, 255, 255, 0.5) !important;
+		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: rgba(0,0,0,0) !important;
-		opacity: 1;
+		color: rgba(255, 255, 255, 0.5) !important;
+		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: rgba(0,0,0,0) !important;
-		opacity: 1;
+		color: rgba(255, 255, 255, 0.5) !important;
+		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(0,0,0,0) !important;
-		opacity: 1;
+		color: rgba(255, 255, 255, 0.5) !important;
+		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: rgba(0,0,0,0) !important;
-		opacity: 1;
+		color: rgba(255, 255, 255, 0.5) !important;
+		opacity: 1.0;
 	}
 
 /* Box */
@@ -646,14 +646,14 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: none /*url("../../images/bg.jpg")*/;
-			background-color: rgba(0, 0, 0, 0);
+			background-image: url("../../images/overlay.png");
+			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 1;
+			opacity: 0.5;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -921,11 +921,11 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					background-color: rgba(0,0,0,0);
+					background-color: rgba(255, 255, 255, 0.075);
 				}
 
 				ul.icons li a:active {
-					background-color: rgba(0,0,0,0);
+					background-color: rgba(255, 255, 255, 0.175);
 				}
 
 /* Table */
@@ -947,7 +947,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(0,0,0,0);
+				background-color: rgba(255, 255, 255, 0.075);
 			}
 
 		table td {
@@ -1036,7 +1036,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(0,0,0,0);
+			background-color: rgba(255, 255, 255, 0.075);
 		}
 
 		input[type="submit"]:active,
@@ -1044,7 +1044,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(0,0,0,0);
+			background-color: rgba(255, 255, 255, 0.175);
 		}
 
 		input[type="submit"].icon:before,
@@ -1139,13 +1139,10 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/bg.jpg");
-			background-size: auto,
- 256px 256px;
-			background-position: center,
- center;
-			background-repeat: no-repeat,
- repeat;
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-size: auto, 256px 256px;
+			background-position: center, center;
+			background-repeat: no-repeat, repeat;
 			z-index: 2;
 		}
 
@@ -1158,7 +1155,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: none /*url("../../images/bg.jpg")*/;
+			background-image: url("../../images/bg.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1369,11 +1366,11 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(0, 0, 0, 0);
+						background-color: rgba(255, 255, 255, 0.075);
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(0, 0, 0, 0);
+						background-color: rgba(255, 255, 255, 0.175);
 					}
 
 		#header nav.use-middle:after {
@@ -1400,7 +1397,7 @@ input, select, textarea {
 			-webkit-filter: blur(0.1rem);
 			-ms-filter: blur(0.1rem);
 			filter: blur(0.1rem);
-			opacity: 1;
+			opacity: 0;
 		}
 
 		body.is-preload #header {
@@ -1411,14 +1408,14 @@ input, select, textarea {
 		}
 
 			body.is-preload #header > * {
-				opacity: 1;
+				opacity: 0;
 			}
 
 			body.is-preload #header .content .inner {
 				max-height: 0;
 				padding-top: 0;
 				padding-bottom: 0;
-				opacity: 1;
+				opacity: 0;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -1546,9 +1543,9 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(0, 0, 0, 0);
+			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
-			opacity: 1;
+			opacity: 0;
 		}
 
 			#main article.active {
@@ -1592,11 +1589,11 @@ input, select, textarea {
 				}
 
 				#main article .close:hover:before {
-					background-color: rgba(0, 0, 0, 0);
+					background-color: rgba(255, 255, 255, 0.075);
 				}
 
 				#main article .close:active:before {
-					background-color: rgba(0, 0, 0, 0);
+					background-color: rgba(255, 255, 255, 0.175);
 				}
 
 		@media screen and (max-width: 736px) {
@@ -1653,9 +1650,9 @@ input, select, textarea {
 			-webkit-filter: blur(0.1rem);
 			-ms-filter: blur(0.1rem);
 			filter: blur(0.1rem);
-			opacity: 1;
+			opacity: 0;
 		}
 
 		body.is-preload #footer {
-			opacity: 1;
+			opacity: 0;
 		}
