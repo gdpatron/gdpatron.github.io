@@ -646,9 +646,9 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("../../images/overlay.png"); 
+			background-image: url("../../images/bg.jpg"); 
 			background-color: rgba(19, 21, 25, 0.5);
-			border-radius: 4px;/*url("../../images/bg.jpg")*/
+			border-radius: 4px;/*url("../../images/overlay.png")*/
 			content: '';
 			display: block;
 			height: 100%;
