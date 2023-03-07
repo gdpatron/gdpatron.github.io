@@ -639,7 +639,7 @@ input, select, textarea {
 
 	.image {
 		border-radius: 4px;
-		border: 0;
+		border: 1;
 		display: inline-block;
 		position: relative;
 	}
