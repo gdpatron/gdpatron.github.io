@@ -140,7 +140,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #000000;
+		color: #F9FEF7;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
@@ -162,7 +162,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #000000;
+		color: #F9FEF7;
 		font-weight: 600;
 	}
 
@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #F9FEF7;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
@@ -189,7 +189,7 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #000000;
+			border-bottom: solid 1px #F9FEF7;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -485,7 +485,7 @@ input, select, textarea {
 			-webkit-user-select: none;
 			-ms-user-select: none;
 			user-select: none;
-			color: #000000;
+			color: #F9FEF7;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 0.8rem;
@@ -748,7 +748,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 1px #000000;
+				border-top: solid 1px #F9FEF7;
 				padding: 0.5em 0;
 			}
 
@@ -1079,7 +1079,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #1b1f22 !important;
+			color: #F9FEF7 !important;
 			font-weight: 600;
 		}
 
@@ -1177,7 +1177,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #bg:before {
-			background-color: #000000;
+			background-color: #F9FEF7;
 		}
 
 /* Wrapper */
